@@ -24,13 +24,13 @@
             <stop stop-color="#0B5F90" offset="0%"></stop>
             <stop stop-color="#23C3AF" offset="100%"></stop>
         </linearGradient>
-        <path d="M5.87846922,22.8902443 C29.5160998,14.0642077 45.7300003,8.5324064 54.5201707,6.2948403 C73.5435332,1.45238229 84.8174727,1.59519705 90,1.1445425 C89.0644951,0.770340553 85.416151,-0.00404053422 81.4161703,-2.55795385e-14 C80.9053342,0.000551959487 80.2101118,1.15900089 79.6994044,1.1445425 C78.7271811,1.11701834 79.3466672,0.131519632 78.2472508,0.134302857 C70.6151804,0.153623806 60.0609776,0.974264326 48.5646064,3.58277761 C34.1214305,6.85991747 20.1532557,12.3026322 5.87846922,16.5954359 C3.79923944,17.220715 1.56376092,17.8037929 0.155916107,19.4567125 C-0.621867118,20.3698906 1.75727366,19.4072708 1.87268204,20.6012231 C0.91415702,21.2175917 0.532653479,21.5990953 0.728171418,21.7457337 C1.04132487,21.9805988 2.7580908,22.3621023 5.87846922,22.8902443 Z" id="path-7"></path>
-        <filter x="-9.6%" y="-29.5%" width="120.0%" height="176.4%" filterUnits="objectBoundingBox" id="filter-8">
+        <path d="M12.7422397,76.8902165 C36.3798703,68.0641799 52.5937708,62.5323786 61.3839412,60.2948125 C80.4073037,55.4523544 91.6812432,55.5951692 96.8637705,55.1445146 C95.9282656,54.7703127 92.2799215,53.9959316 88.2799408,53.9999722 C87.7691047,54.0005241 87.0738823,55.158973 86.5631749,55.1445146 C85.5909516,55.1169905 86.2104377,54.1314918 85.1110213,54.134275 C77.4789509,54.153596 66.9247481,54.9742365 55.4283769,57.5827498 C40.985201,60.8598896 27.0170262,66.3026044 12.7422397,70.5954081 C10.6630099,71.2206871 8.42753142,71.803765 7.01968661,73.4566846 C6.24190339,74.3698628 8.62104416,73.407243 8.73645254,74.6011952 C7.77792752,75.2175639 7.39642398,75.5990674 7.59194192,75.7457059 C7.90509537,75.9805709 9.6218613,76.3620745 12.7422397,76.8902165 Z" id="path-7"></path>
+        <filter x="-3.5%" y="-9.8%" width="110.0%" height="137.1%" filterUnits="objectBoundingBox" id="filter-8">
             <feMorphology radius="0.25" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feOffset dx="1" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.479189223   0 0 0 0 0.0877801176   0 0 0 0 0.401203835  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+            <feColorMatrix values="0 0 0 0 0.542783875   0 0 0 0 0.469952133   0 0 0 0 0.528272686  0 0 0 0.75 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <linearGradient x1="100%" y1="19.3059836%" x2="0%" y2="29.597227%" id="linearGradient-9">
             <stop stop-color="#FECF24" offset="0%"></stop>
@@ -72,16 +72,14 @@
                 </g>
                 <path d="M15,20.8333333 C15.1480363,20.8333333 15.3595166,20.7354757 15.5146022,20.6446078 C19.4833837,18.128268 22,15.199528 22,12.2218591 C22,9.74745824 20.2870091,8 18.0030211,8 C16.6988922,8 15.6414904,8.6151053 15,9.55873275 C14.3726083,8.62209513 13.3011078,8 11.9969789,8 C9.71299094,8 8,9.74745824 8,12.2218591 C8,15.199528 10.5166163,18.128268 14.4924471,20.6446078 C14.6404834,20.7354757 14.8519637,20.8333333 15,20.8333333 Z M15,19.6520516 C14.9718026,19.6520516 14.9224572,19.6171024 14.8590131,19.5681736 C11.9053374,17.625 9.13494461,14.822077 9.13494461,12.2218591 C9.13494461,10.3625635 10.347432,9.12536311 11.9828802,9.12536311 C13.3081571,9.12536311 14.0694864,9.94317357 14.5206445,10.6421569 C14.7109768,10.9217502 14.8308157,10.9986383 15,10.9986383 C15.1691843,10.9986383 15.2749245,10.9147603 15.4793555,10.6421569 C15.9657603,9.95715323 16.6988922,9.12536311 18.0171198,9.12536311 C19.652568,9.12536311 20.8650554,10.3625635 20.8650554,12.2218591 C20.8650554,14.822077 18.0946626,17.625 15.1480363,19.5681736 C15.0775428,19.6171024 15.0281974,19.6520516 15,19.6520516 Z" id="􀊴" fill="#EA4AAA" fill-rule="nonzero"></path>
             </g>
-            <text id="Enjoying-my-work?" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="14" font-weight="normal" fill="#7B7B7B">
+            <text id="Enjoying-my-work?" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="14" font-weight="normal" fill="#83868A" fill-opacity="0.75">
                 <tspan x="11.2553711" y="105">Enjoying my work?</tspan>
             </text>
             <g id="picture" transform="translate(22.000000, 0.000000)">
-                <g id="stroke" transform="translate(6.863771, 53.999972)" fill-rule="nonzero">
-                    <g id="Path-2">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
-                        <use fill="#FFFFFF" xlink:href="#path-7"></use>
-                        <use stroke="#A56C99" stroke-width="0.5" fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
-                    </g>
+                <g id="stroke" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-7"></use>
+                    <use stroke="#A56C99" stroke-width="0.5" fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
                 </g>
                 <path d="M99.9168864,3.9169614 L49.2030145,84.2139253 L-2.56739646,28.2173584 L99.9168864,3.9169614 Z" id="Triangle" stroke="url(#linearGradient-10)" stroke-width="2.70773416" fill="url(#linearGradient-9)"></path>
                 <g id="avatar" transform="translate(20.000000, 0.000000)">
