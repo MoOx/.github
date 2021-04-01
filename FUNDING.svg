@@ -6,14 +6,14 @@
             <stop stop-color="#FBFCFD" offset="0%"></stop>
             <stop stop-color="#FAFBFC" offset="100%"></stop>
         </linearGradient>
-        <text id="text-2" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" line-spacing="12" fill="#24292E">
+        <text id="text-2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="12" font-weight="bold" line-spacing="12" fill="#24292E">
             <tspan x="29" y="18">Pay me a drink</tspan>
         </text>
         <filter x="-0.3%" y="-2.1%" width="100.6%" height="125.0%" filterUnits="objectBoundingBox" id="filter-3">
             <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
-        <text id="text-4" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" line-spacing="12" fill="#24292E">
+        <text id="text-4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="12" font-weight="bold" line-spacing="12" fill="#24292E">
             <tspan x="28" y="18">Sponsor my work</tspan>
         </text>
         <filter x="-0.2%" y="-2.1%" width="100.5%" height="125.0%" filterUnits="objectBoundingBox" id="filter-5">
@@ -72,7 +72,7 @@
                 </g>
                 <path d="M15,20.8333333 C15.1480363,20.8333333 15.3595166,20.7354757 15.5146022,20.6446078 C19.4833837,18.128268 22,15.199528 22,12.2218591 C22,9.74745824 20.2870091,8 18.0030211,8 C16.6988922,8 15.6414904,8.6151053 15,9.55873275 C14.3726083,8.62209513 13.3011078,8 11.9969789,8 C9.71299094,8 8,9.74745824 8,12.2218591 C8,15.199528 10.5166163,18.128268 14.4924471,20.6446078 C14.6404834,20.7354757 14.8519637,20.8333333 15,20.8333333 Z M15,19.6520516 C14.9718026,19.6520516 14.9224572,19.6171024 14.8590131,19.5681736 C11.9053374,17.625 9.13494461,14.822077 9.13494461,12.2218591 C9.13494461,10.3625635 10.347432,9.12536311 11.9828802,9.12536311 C13.3081571,9.12536311 14.0694864,9.94317357 14.5206445,10.6421569 C14.7109768,10.9217502 14.8308157,10.9986383 15,10.9986383 C15.1691843,10.9986383 15.2749245,10.9147603 15.4793555,10.6421569 C15.9657603,9.95715323 16.6988922,9.12536311 18.0171198,9.12536311 C19.652568,9.12536311 20.8650554,10.3625635 20.8650554,12.2218591 C20.8650554,14.822077 18.0946626,17.625 15.1480363,19.5681736 C15.0775428,19.6171024 15.0281974,19.6520516 15,19.6520516 Z" id="􀊴" fill="#EA4AAA" fill-rule="nonzero"></path>
             </g>
-            <text id="Enjoying-my-work?" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#7B7B7B">
+            <text id="Enjoying-my-work?" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" font-size="14" font-weight="normal" fill="#7B7B7B">
                 <tspan x="11.2553711" y="105">Enjoying my work?</tspan>
             </text>
             <g id="picture" transform="translate(22.000000, 0.000000)">
